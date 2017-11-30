@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en" ng-app="mostPopularListingsApp" class="no-js"><!--<![endif]-->
+<html lang="en" ng-app="ExamenApp" class="no-js"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +11,15 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="resources/css/app.css">
+  <link rel="stylesheet" href="resources/bower/angular-material/angular-material.css">
   <base href="/">
 </head>
 <body>
   <ul class="menu">
-    <li><a href="#/">Home</a></li>
-    <li><a href="#/about">About</a></li>
-    <li><a href="#/login">Login</a></li>
-  </ul>
 
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+    <li><a href="#/examen">Examen</a></li>
+
+  </ul>
 
   <div ng-view></div>
 
@@ -31,10 +28,11 @@
   -->
   <script src="resources/bower/angular/angular.js"></script>
   <script src="resources/bower/angular-route/angular-route.min.js"></script>
+  <script src="resources/bower/angular-aria/angular-aria.js"></script>
+  <script src="resources/bower/angular-animate/angular-animate.js"></script>
+  <script src="resources/bower/angular-material/angular-material.js"></script>
   <script src="app.js"></script>
-  <script src="components/controllers/AboutController.js"></script>
-  <script src="components/controllers/HomeController.js"></script>
-  <script src="components/controllers/LoginController.js"></script>
+  <script src="components/controllers/ExamenController.js"></script>
 
 </body>
 </html>
